@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Hi there")
+    res.send("Hi there http")
 });
 
 app.post("/signup", async (req, res)=> {
@@ -27,5 +27,5 @@ app.post("/signup", async (req, res)=> {
 });
 
 
-
+console.log("http server is running on Port 4000");
 app.listen(4000);
