@@ -2,8 +2,7 @@
 
 Run the following command:
 ```sh
-pnpm inatall 
-pnpm run dev
+pnpm inatall && pnpm run dev
 ```
 http-server is running on  [http://localhost:4000](http://localhost:4000)
 
